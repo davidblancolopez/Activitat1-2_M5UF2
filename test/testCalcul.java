@@ -45,12 +45,18 @@ public class testCalcul {
     
     
 
-    //Test de factorial 1 introducimos un numero que nos devolvera -1
-    //Hemos puesto 0.
+    //Test de preu 1 introducimos el numero 3 y nos devolvera 90 del calculo de 3 * 30.
     @Test
-    public final void testPreu() {
+    public final void testPreu(){
         
         assertEquals(90, Calcul.calculPreu(3));
+    }
+    
+    //Test de preu 1 introducimos el numero 3 y nos devolvera 90 del calculo de 3 * 30.
+    @Test
+    public final void testPreu2(){
+        
+        assertEquals(380, Calcul.calculPreu(13));
     }
     
 }

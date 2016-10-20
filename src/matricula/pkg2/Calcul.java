@@ -5,7 +5,7 @@ package matricula.pkg2;
 public class Calcul {
     
     
-    public int calculPreu(int num){
+    public static int calculPreu(int num){
         int numerouf = num;
         int preu = 0;
            
