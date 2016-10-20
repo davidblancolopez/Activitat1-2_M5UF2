@@ -43,5 +43,12 @@ public class testMatricula {
     // public void hello() {}
     
     
-    
+    //Test inverteix1 no introducimos nada y lo dejamos en null
+    //entonces devolvera null.
+    @Test
+    public final void testMatricula1() {
+        //fail ("Sin implementar");
+        
+        assertEquals( null, calculPreu.inverteix(null));
+    }
 }
