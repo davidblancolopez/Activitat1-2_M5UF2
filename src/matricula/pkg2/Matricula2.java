@@ -22,6 +22,7 @@ public class Matricula2 {
         }else if (numerouf >= 12){
             System.out.println("El preu total és de: 380,00 €");
         }
+        
     }
     
 }
