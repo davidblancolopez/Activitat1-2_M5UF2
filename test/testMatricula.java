@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+import matricula.pkg2.Calcul;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -49,6 +50,6 @@ public class testMatricula {
     public final void testMatricula1() {
         //fail ("Sin implementar");
         
-        assertEquals( null, calculPreu.inverteix(null));
+        assertEquals( 380, Calcul.calculPreu(12));
     }
 }

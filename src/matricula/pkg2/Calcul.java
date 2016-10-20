@@ -6,14 +6,12 @@ import java.util.Scanner;
 
 public class Calcul {
     Scanner lector = new Scanner(System.in);
-    public int calculPreu(){
-        int numerouf, preu = 0;
+    
+    public int calculPreu(int num){
+        int numerouf = num;
+        int preu = 0;
         
-        do{
-        System.out.println("Introdueix el numero de UF's en que estas matriculat: ");
-        numerouf = lector.nextInt();
-        
-        }while(numerouf < 0);
+
         
         if (numerouf < 12) {
             preu = (numerouf * 30);
