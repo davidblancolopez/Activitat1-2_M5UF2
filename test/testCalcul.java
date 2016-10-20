@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+import matricula.pkg2.Calcul;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -47,9 +48,9 @@ public class testCalcul {
     //Test de factorial 1 introducimos un numero que nos devolvera -1
     //Hemos puesto 0.
     @Test
-    public final void testFactorial() {
-        //fail ("Sin implementar");
+    public final void testPreu() {
         
         assertEquals(90, Calcul.calculPreu(3));
     }
+    
 }
