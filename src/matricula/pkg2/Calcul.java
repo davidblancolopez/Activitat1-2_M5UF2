@@ -4,7 +4,10 @@ package matricula.pkg2;
 
 public class Calcul {
     
-    
+    /*
+    Este metodo realiza el calculo del precio de la matricula según el numero de
+    UF's que se introduzcan.
+    */
     public static int calculPreu(int num){
         int numerouf = num;
         int preu = 0;
